@@ -1,0 +1,150 @@
+.container {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contactos {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+}
+
+.principal {
+  width: 78%;
+  background-color: #f9f9f9;
+  border-left: 1px solid #bec1bb;
+
+  div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  img {
+    width: 26%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  h1 {
+    font-size: 3.5vw;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.4vw;
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.user {
+  display: flex;
+  width: 100%;
+  border: 1px solid #bec1bb;
+  justify-content: space-around;
+  height: 5vw;
+
+  img {
+    border-radius: 200px;
+    width: 2.6vw;
+    height: auto;
+  }
+}
+
+.info_user {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  width: 100%;
+}
+
+.name_user {
+  margin-left: 5%;
+}
+
+.name_user p:first-child {
+  font-size: 1.2vw;
+  margin: 0;
+}
+
+.name_user p:last-child {
+  margin: 0;
+  color: #bec1bb;
+  font-size: 0.85vw;
+}
+
+.icon_user {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+  i {
+    color: #bec1bb;
+    margin-left: 15px;
+    font-size: 1.5vw;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #bec1bb;
+  width: 100%;
+  height: 10vw;
+}
+
+.btn button {
+  background-color: #a491d2;
+  color: white;
+  font-size: 1.2vw;
+  padding: 15px;
+  border: #a491d2;
+  width: 65%;
+}
+
+.btn button:hover {
+  background-color: #cdc3e6;
+}
+
+.btn button:focus {
+  background-color: #bec1bb;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #bec1bb;
+  width: 100%;
+  height: 5.8vw;
+
+  img {
+    width: 4vw;
+    height: auto;
+    border-radius: 200px;
+    margin-left: 2.5vw;
+  }
+
+  div {
+    margin-left: 5%;
+
+    > p:first-child {
+      font-size: 1.2vw;
+      margin: 0;
+    }
+
+    > p:last-child {
+      margin: 0;
+      font-size: 1.15vw;
+    }
+  }
+}
